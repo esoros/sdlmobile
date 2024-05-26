@@ -1,0 +1,4 @@
+Thrid party frameworks must be downloaded and placed in /Library/Frameworks. Right now only SDL2 is used. Probably need
+others for rendering fonts.
+
+g++ main.cpp -o main -I/Library/Frameworks/SDL2.framework/Headers -F/Library/Frameworks -framework SDL2 -rpath /Library/Frameworks
